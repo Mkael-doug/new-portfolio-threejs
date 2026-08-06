@@ -1,30 +1,35 @@
 export const myProjects = [
+
   {
     id: 1,
-    title: "Vertice Store - Plataforma E-commerce",
+    title: "Website Fan Page",
     description:
-      "",
+      "Este projeto consiste em uma Landing Page interativa, altamente responsiva e fluida criada como um tributo ao herói mais popular da Marvel: o Homem-Aranha.",
     subDescription: [
-      "",
+      "Focado primariamente no UX e UI, o projeto transcende o básico de páginas informativas ao adicionar micro-interações, animações orgânicas e um sistema de design consistente baseado em Glassmorphism, glow effects e tipografias dinâmicas.",
     ],
-    href: "https://vertice-store.vercel.app",
-    logo: "",
-    image: "/assets/projects/vertice.jpeg",
+    href: "https://spider-man-landing-page-tribute.vercel.app/",
+    image: "/assets/projects/fan-page.jpeg",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "TypeScript",
+        path: "/assets/logos/ts.svg",
       },
       {
         id: 2,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Framer Motion",
+        path: "/assets/logos/motion.svg",
+      },
+      {
+        id: 4,
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
       },
     ],
   },
@@ -32,12 +37,11 @@ export const myProjects = [
     id: 2,
     title: "RPG-Character-Manager",
     description:
-      "",
+      "Uma aplicação web interativa para criação e gerenciamento de personagens baseada no sistema de RPG Tormenta 20, desenvolvida com foco em interatividade, organização de dados e experiência do usuário.",
     subDescription: [
-      "",
+      "O objetivo deste projeto é fornecer uma interface intuitiva para criação, visualização e edição de fichas de personagens.",
     ],
-    href: "",
-    logo: "",
+    href: "https://rpg-character-manager.vercel.app/",
     image: "/assets/projects/rpg.jpeg",
     tags: [
       {
@@ -61,12 +65,11 @@ export const myProjects = [
     id: 3,
     title: "Roboy - Startup App",
     description:
-      "",
+      "O ROBOY é uma landing page moderna e interativa desenvolvida com o intuito de praticar e dominar a integração de elementos 3D no desenvolvimento web.",
     subDescription: [
-      "",
+      "Utilizando React, Vite e Tailwind CSS, o projeto conta com uma experiência rica e imersiva através do uso de modelos 3D criados no Spline e animações dinâmicas ativadas ao rolar a página.",
     ],
-    href: "",
-    logo: "",
+    href: "https://3d-startup-app-five.vercel.app/",
     image: "/assets/projects/roboy.jpeg",
     tags: [
       {
@@ -93,35 +96,29 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "Website Fan Page",
+    title: "Vertice Store - Plataforma E-commerce",
     description:
-      "",
+      "Uma interface de E-Commerce rápida, responsiva e polida, construída com foco em Clean Code, componentização e as melhores práticas modernas de desenvolvimento Front-end.",
     subDescription: [
-      "",
+      "Idealizada com React, Vite, Tailwind CSS e animações AOS, a plataforma oferece uma experiência de compra envolvente, intuitiva e design atraente.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/fan-page.jpeg",
+    href: "https://vertice-store.vercel.app",
+    image: "/assets/projects/vertice.jpeg",
     tags: [
       {
         id: 1,
-        name: "TypeScript",
-        path: "/assets/logos/ts.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 3,
-        name: "Framer Motion",
-        path: "/assets/logos/motion.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -129,12 +126,11 @@ export const myProjects = [
     id: 5,
     title: "Old Portfolio Website",
     description:
-      "",
+      "Este projeto foi desenvolvido para demonstrar minhas habilidades, projetos e experiência como desenvolvedor, combinando um design moderno com alta performance e interatividade.",
     subDescription: [
-      "",
+      "O projeto foi construído com React, Vite, Tailwind CSS e Framer Motion, garantindo uma experiência de usuário fluida e responsiva.",
     ],
-    href: "",
-    logo: "",
+    href: "https://portfolio-profissional-tailwind-rea.vercel.app/",
     image: "/assets/projects/old-portfolio.jpeg",
     tags: [
       {
@@ -168,7 +164,6 @@ export const myProjects = [
       "",
     ],
     href: "",
-    logo: "",
     image: "/assets/projects/focusflow.jpeg",
     tags: [
       {
