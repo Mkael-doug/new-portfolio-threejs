@@ -35,6 +35,39 @@ export const myProjects = [
   },
   {
     id: 2,
+    title: "Spylt - Awwwards Site Clone",
+    description:
+      "Este projeto é uma recriação do site Awwwards, com foco em animações e interatividade, utilizando React, GSAP e Tailwind CSS para criar uma experiência de usuário envolvente e visualmente impressionante.",
+    subDescription: [
+      "O objetivo deste projeto é demonstrar habilidades avançadas em animação e design de interface, proporcionando uma experiência de navegação fluida e dinâmica.",
+    ],
+    href: "https://gsap-awwwards-mu.vercel.app/",
+    image: "/assets/projects/banner.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "GSAP",
+        path: "/assets/logos/gsap.svg",
+      },
+      {
+        id: 4,
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "RPG-Character-Manager",
     description:
       "Uma aplicação web interativa para criação e gerenciamento de personagens baseada no sistema de RPG Tormenta 20, desenvolvida com foco em interatividade, organização de dados e experiência do usuário.",
@@ -58,39 +91,6 @@ export const myProjects = [
         id: 3,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Roboy - Startup App",
-    description:
-      "O ROBOY é uma landing page moderna e interativa desenvolvida com o intuito de praticar e dominar a integração de elementos 3D no desenvolvimento web.",
-    subDescription: [
-      "Utilizando React, Vite e Tailwind CSS, o projeto conta com uma experiência rica e imersiva através do uso de modelos 3D criados no Spline e animações dinâmicas ativadas ao rolar a página.",
-    ],
-    href: "https://3d-startup-app-five.vercel.app/",
-    image: "/assets/projects/roboy.jpeg",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 3,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 4,
-        name: "Three.js",
-        path: "/assets/logos/threejs.svg",
       },
     ],
   },
@@ -157,14 +157,14 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Focus Flow - SaaS Application",
+    title: "Roboy - Startup App",
     description:
-      "",
+      "O ROBOY é uma landing page moderna e interativa desenvolvida com o intuito de praticar e dominar a integração de elementos 3D no desenvolvimento web.",
     subDescription: [
-      "",
+      "Utilizando React, Vite e Tailwind CSS, o projeto conta com uma experiência rica e imersiva através do uso de modelos 3D criados no Spline e animações dinâmicas ativadas ao rolar a página.",
     ],
-    href: "",
-    image: "/assets/projects/focusflow.jpeg",
+    href: "https://3d-startup-app-five.vercel.app/",
+    image: "/assets/projects/roboy.jpeg",
     tags: [
       {
         id: 1,
@@ -173,18 +173,18 @@ export const myProjects = [
       },
       {
         id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
         name: "Vite.js",
         path: "/assets/logos/vitejs.svg",
       },
       {
-        id: 3,
-        name: "IA",
-        path: "/assets/logos/openai.svg",
-      },
-      {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Three.js",
+        path: "/assets/logos/threejs.svg",
       },
     ],
   },

@@ -5,7 +5,6 @@ import About from './sections/About'
 import Projects from './sections/Projects'
 import Experiences from './sections/Experiences'
 import FeatureCards from './sections/FeatureCards'
-// import Testimonial from './sections/Testimonial'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 
@@ -18,7 +17,6 @@ const App = () => {
       <Experiences />
       <Projects />
       <FeatureCards />
-      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>
